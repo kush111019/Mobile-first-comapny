@@ -26,7 +26,8 @@
          * The data will remain in the redis server for 30 minutes and the expiry time of the jwt token is 7 days
          * Only those apis are written which are asked in the Task . As per the need of the further requirements we can integrate 
            unit test and Docker component also to contanarize our application.
-
+         * The data will be first fetched from the database on the first request but after successive request it will be fetched
+           from the redis server due to caching(applicable only on those apis in which we are saving data in the redis server as well)
 
 3) How to run locally : - 
    a) First clone the repositroy from the git
