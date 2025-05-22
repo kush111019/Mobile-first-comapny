@@ -35,6 +35,7 @@
    4) create the .env file with the required credentials( as this the dummy project that is why .env file will be available on the git branch )
    5) create the database in postgres with the name ecommerce_db
    6) run the migration file using the command npx sequelize-cli db:migrate
+   7) keep the redis server in running state
    7) run the command npm run dev to start the server
 
 
